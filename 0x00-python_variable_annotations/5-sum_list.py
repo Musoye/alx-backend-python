@@ -2,6 +2,9 @@
 '''Python - Variable annotation'''
 
 
-def sum_list(input_list: list[float]) -> float:
+from typing import List
+
+
+def sum_list(input_list: List[float]) -> float:
     '''Python - variable annot'''
     return float(sum(input_list))
