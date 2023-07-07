@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
-safe_first_element =  __import__('100-safe_first_element').safe_first_element
+to_kv = __import__('7-to_kv').to_kv
 
-print(safe_first_element.__annotations__)
+print(to_kv.__annotations__)
+print(to_kv("eggs", 3))
+print(to_kv("school", 0.02))
